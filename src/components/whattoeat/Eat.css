@@ -1,0 +1,844 @@
+body {
+   
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.signup{
+    background-color: transparent;
+    border: none;
+    color: white;
+    /* margin-left: 10px; */
+    font-size: 14px;
+    color: #000000;
+ 
+}
+.toplogo{
+    width: 150px;
+    margin-left: 93px;
+}
+.facebook{
+    border: none;
+    border-radius: 100%;
+    background-color: #24A97B;
+    margin-left: 20px;
+    padding: 1px;
+    width: 20px;
+    height: 20px;
+    margin-top: 8px;
+}
+.cat{
+    color: rgb(185, 183, 183);
+    font-size: 14px;
+}
+.items{
+    margin-left: 40px ;
+}
+.item{
+    margin-right: 30px;
+}
+.box{
+    border: 2px solid rgb(233, 230, 230);
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 35px;
+}
+.linktop{
+    text-decoration: none;
+    color: rgb(185, 183, 183);
+    margin-top: 20px;
+    font-size: 13px;
+    margin-left: 10px;
+}
+.imgtop{
+    width: 180%;
+    margin-top: -30px;
+
+}
+.lefttext{
+    margin-left: 20px;
+}
+.text1 , .section2text , .section3text, .section4text{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 5pc;
+    /* margin-top: 3pc; */
+    
+}
+.options{
+    margin-top: 0px;
+}
+.optionbtn{
+    background-color: transparent;
+    border: 1px solid grey;
+    font-weight: 400;
+    border-radius: 50px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    /* font-size: 11px; */
+    padding: 4px 20px;
+}
+.modalOptions{
+    font-size: 11px;
+}
+.modal-header{
+    padding-top: 7px !important;
+    padding-bottom: 0 !important;
+}
+.modal-title{
+    font-size: 14px;
+}
+.modal-body{
+    padding-bottom: 0 !important;
+}
+.read-more-btn{
+    border: none;
+    background-color: transparent;
+    font-size: 12px;
+    text-decoration: underline;
+
+}
+.optionbtn:hover{
+    background-color: #24A97B;
+    border: #24A97B;
+    color: white;
+}
+.bottombtn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.optionbottom{
+    background-color: hsl(159, 65%, 40%);;
+    border: 1px solid #24A97B;;
+    font-weight: 400;
+    border-radius: 50px;
+    
+    font-size: 14px;
+    padding: 8px 25px;
+    color: white;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+.optionbtn.selected {
+    background-color: #24A97B;
+    color: white; 
+    border-color: #24A97B;
+  }
+
+/* Section2 */
+
+.section2text{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 6pc;
+}
+
+/* section3 */
+
+.section3text{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 6pc;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.section3btn{
+    margin-top: 50px;
+}
+.section3img{
+    margin-top: 20px;
+}
+
+/* section 4 */
+
+.section4img{
+    margin-top: 40px;
+    width: 400px;
+}
+
+.section4btn{
+    margin-top: 60px;
+}
+
+.section4text{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 6pc;
+}
+
+/* section5 */
+
+.rightcol{
+    border-left: 2px solid rgb(233, 230, 230);
+}
+.prefrences{
+    color: black;
+    font-weight: 600;
+    font-size: 19px;
+    margin-left: 10px;
+    margin-top: 20px;
+    /* margin-top: 55px; */
+}
+.cuisineSelection{
+    color: black;
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: 400;
+}
+.edititems{
+    font-size: 10px;
+    margin-right: 0px;
+    padding: 4px 10px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+
+.rightText{
+    font-weight: 600;
+    margin-left: 55px;
+    margin-top: 4pc;
+    color: black;
+}
+.backBtn{
+    border: none;
+    border-radius: 50%;
+    padding: 2px 10px;
+
+}
+
+.cardBody{
+    padding: 8px 4px !important;
+
+}
+.rating{
+    background-color: #24A97B;
+    color: white;
+    padding: 2px 10px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: 300;
+}
+.cardDish{
+    font-weight: 900;
+    font-size: 16px;
+}
+.cardDes{
+    justify-content: end;
+    padding-bottom: 17px;
+    align-items: center;
+}
+.number{
+    font-size: 11px;
+    color: gray;
+    margin-left: 5px;
+    
+}
+.cardText{
+    color: gray;
+    font-size: 11px;
+    margin-bottom: -20px !important;
+}
+.cardImg{
+    height: 200px;
+
+}
+.dishCard{
+    width: 14rem !important;
+}
+
+.cardContainer{
+    width: 92%;
+    justify-content: space-between;
+}
+.returnHome{
+    color: rgb(54, 54, 54);
+    margin-left: 40px;
+    font-size: 14px;
+}
+.bottomRight{
+    margin-top: 3pc;
+    margin-bottom: 1.5pc;
+    margin-left: 15px;
+    align-items: end;
+}
+.tryAgain{
+    border: none;
+    background-color: #24A97B;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 50px;
+    margin-right: 70px;
+    font-size: 15px;
+}
+
+.image-container {
+    position: relative;
+  }
+  
+
+
+   .heartBtn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+}
+
+.heart {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit {
+    top: 8px;
+    right: 8px;
+    width: 25px;
+    height: 25px;
+    border: none;
+    background: rgb(243, 242, 242);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.editImg {
+    width: 40%;
+    height: 40%;
+
+}
+
+.option{
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+}
+.leftCol{
+    padding: 0px;
+    margin-left: 3px;
+}
+
+.change{
+    border: none;
+    background-color: #24A97B;
+    color: white;
+    font-size: 12px;
+    padding: 6px 10px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+.change:hover{
+    border: none;
+    background-color: #24A97B;
+    color: white;
+    font-size: 12px;
+    padding: 6px 10px;
+    border-radius: 50px;
+}
+
+.share{
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.shareimg{
+    width: 15px;
+    height: 15px;
+}
+
+.share-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .social-buttons-box {
+    position: absolute;
+    top: -5px;
+    left: 40px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 10px;
+    z-index: 100;
+  }
+  
+  .share {
+    cursor: pointer;
+  }
+  
+ .link{
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid black;
+    
+ }
+ .linkimg{
+    width: 18px;
+    height: 18px;
+   
+}
+  
+
+/* responsiveness */
+
+@media (max-width: 1024px){
+    .toplogo{
+        width: 110px;
+        margin-left: 15px;
+        margin-top: 2px;
+    }
+    .cat{
+
+        font-size: 10px;
+    }
+    .topnav{
+        margin-top: 0px;
+    }
+    .signup{
+        margin-top: 15pxpx;
+        font-size: 10px;
+    }
+    .facebook{
+        border: none;
+        border-radius: 100%;
+        background-color: #24A97B;
+        margin-left: 10px;
+        padding:0px;
+        width: 15px;
+        height: 15px;
+        margin-top: 8px;
+    }
+    .instaimg{
+        margin-top: 1px;
+        width: 13px;
+        height: 13px;
+     
+    }
+    .linktop{
+        font-size: 11px;
+    }
+    .text1 , .section2text , .section3text, .section4text{
+        font-size: 18px;
+        margin-top: 2pc;
+    }
+    .options{
+        margin-top: 2px;
+    }
+    .optionbtn{
+        background-color: transparent;
+        border: 1px solid grey;
+        font-weight: 400;
+        border-radius: 50px;
+        margin-right: 15px;
+        margin-bottom: 10px;
+        font-size: 12px;
+        padding: 4px 20px;
+    }
+
+    .optionbottom{
+        background-color: hsl(159, 65%, 40%);;
+        border: 1px solid #24A97B;;
+        font-weight: 400;
+        border-radius: 50px;
+        
+        font-size: 12px;
+        padding: 8px 25px;
+        color: white;
+        margin-top: -20px;
+        margin-bottom: 20px;
+    }
+    .imgtop{
+        width: 160%;
+        margin-top: 8px;
+    
+    }
+    .firstCusinie {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 768px){
+    .toplogo{
+        width: 140px;
+        margin-left: 15px;
+    }
+    .toggleBtn{
+        border: none !important;
+        font-size: 15px !important;
+    }
+    .signup{
+        display: flex;
+        justify-content: flex-start;
+        font-size: 10px;
+        margin-left: -5px;
+        margin-bottom: 10px;
+    }
+    /* .facebook{
+        border: none;
+        border-radius: 100%;
+        background-color: #24A97B;
+        margin-left: -1px;
+        padding:0px;
+        width: 15px;
+        height: 15px;
+        margin-top: 8px;
+    }
+    .instaimg{
+       margin-top: -3px;
+        width: 13px;
+        height: 13px;
+     
+    } */
+     .facebook{
+        display: none;
+     }
+     .text1 , .section2text , .section3text, .section4text{
+        font-size: 16px;
+        margin-top: 2pc;
+    }
+    .options{
+        margin-top: 2px;
+    }
+    .optionbtn{
+        margin-right: 15px;
+        margin-bottom: 10px;
+        font-size: 10px;
+        padding: 4px 20px;
+    }
+    .imgtop{
+        width: 180%;
+        margin-top: 18px;
+    
+    }
+    .optionbottom{
+        font-size: 11px;
+        padding: 6px 20px;
+
+        margin-top: 2px;
+        margin-bottom: 20px;
+    }
+    .section5link{
+        margin-left: -5px;
+    }
+    .prefrences{
+
+        font-size: 14px;
+        margin-left: 5px;
+        margin-top: 30px;
+    }
+    .cuisineSelection{
+        margin-top: -5px;
+        margin-left: 4px;
+    }
+    .edit{
+        margin-left: 6px;
+    }
+    .edititems{
+        font-size: 9px;
+        
+    }
+    .rightText{
+        margin-top: 2pc;
+        font-size: 16px;
+        margin-left: 2.5pc;
+    }
+    .cardBody{
+        padding: 8px 6px !important;
+    
+    }
+    .cardImg{
+        height: 180px;
+    
+    }
+    .dishCard{
+        width: 12rem !important;
+    }
+    
+    .cardContainer{
+        width: 89%;
+        justify-content: space-between;
+    }
+    .cardDish{
+        font-size: 13px;
+    }
+    .rating{
+        font-size: 10px;
+        padding: 2px 5px;
+    }
+    .number{
+        font-size: 10px;
+    }
+    .cardText{
+        font-size: 9px;
+
+    }
+    .bottomRight{
+        margin-top: 30px;
+        margin-left: 0px;
+
+    }
+    .returnHome{
+        font-size: 12px;
+    }
+    .tryAgain{
+        font-size: 12px;
+        padding: 3px 9px;
+    }
+    .priceRange{
+        padding-right: 10px;
+    padding-left: 10px;
+    }
+
+}
+@media (max-width: 430px){
+    .toplogo{
+        width: 100px;
+        margin-left: 1px;
+    }
+
+     .box{
+        width: 91%;
+        margin-left: 18px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .navTop{
+        padding-right: 0px;
+    }
+    .reverse{
+            flex-direction: column-reverse;
+     
+    }
+    .text1 , .section2text , .section3text, .section4text{
+        /* display: flex; */
+        align-items: center;
+        font-size: 14px;
+        margin-top: 2pc;
+    }
+    .lefttext{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .options{
+        margin-top: 2px;
+    }
+    .optionbtn{
+        font-size: 10px;
+    }
+    .imgtop{
+        width: 80%;
+        margin-top: 0px;
+    
+    }
+    .rightimage{
+        display: flex;
+        justify-content: center;
+ 
+    }
+    .optionbottom{
+        font-size: 11px;
+        padding: 6px 20px;
+        margin-top: 2pc;
+ 
+    }
+    .rightcol{
+        border-left: none;
+    }
+    .firstCusinie {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .edit{
+        margin-left: 4.5pc;    
+    }
+    .prefrences{
+        display: flex;
+        justify-content: center;
+    }
+    .rightText {
+        display: flex;              
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 30px;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    .cardDes{
+        padding-bottom: 0px;
+    }
+    .cardContainer {
+        width: 70%; 
+    }
+    .dishCard {
+        width: 12rem !important;
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+    .returnHome{
+        margin-left: 10px;
+    }
+    .tryAgain{
+        margin-right: 10px;
+    }
+
+
+
+
+}
+
+
+@media (max-width: 375px){
+
+     .text1 , .section2text , .section3text, .section4text{
+        /* display: flex; */
+        align-items: center;
+        font-size: 14px;
+        margin-top: 2pc;
+    }
+    /* .lefttext{
+        margin-left: 10px;
+    } */
+    .lefttext{
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .options{
+        margin-top: 2px;
+
+    }
+    .optionbtn{
+        font-size: 10px;
+    }
+    .imgtop{
+        width: 80%;
+        margin-top: -10px;
+    
+    }
+    .rightimage{
+        display: flex;
+        justify-content: center;
+ 
+    }
+    .optionbottom{
+        font-size: 11px;
+        padding: 6px 20px;
+        margin-top: 1pc;
+ 
+    }
+    .edit{
+        margin-left: 3.5pc;
+    }
+    .cardImg{
+        height: 170px;
+    
+    }
+    .dishCard{
+        width: 11rem !important;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 320px){
+
+    .text1, .section2text , .section3text, .section4text{
+       font-size: 14px;
+       margin-top: 1.5pc;
+   }
+
+   .options{
+       margin-top: -10px;
+
+   }
+   .optionbtn{
+       font-size: 11px;
+       padding: 4px 15px;
+
+   }
+   .optionbottom{
+       font-size: 10px;
+       padding: 6px 20px;
+       margin-top: 1pc;
+
+   }
+   .cuisineSelection{
+    font-size: 12px;
+   }
+   .edit{
+    margin-left: 3pc;
+   
+}
+.edititems{
+    font-size: 9px;
+   margin-left: 8px;
+   margin-right: 0px;
+}
+.cardImg{
+    height: 150px;
+
+}
+
+.dishCard{
+    width: 9rem !important;
+    margin-left: 10px;
+}
+.prefrences{
+    display: flex;
+    justify-content: center;
+}
+.rightText {
+   
+    font-size: 12px;
+    margin: 0px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+}
+
+
+
+/* modal css */
+
+.modalbtn{
+    background-color: hsl(159, 65%, 40%);;
+    border: 1px solid #24A97B;;
+    font-weight: 400;
+    border-radius: 50px;
+    
+    font-size: 13px;
+    padding: 8px 20px;
+    color: white;
+
+}
+.modalbtn:hover{
+    background-color: hsl(159, 65%, 40%);;
+    color: white;
+
+}
+
+
+
